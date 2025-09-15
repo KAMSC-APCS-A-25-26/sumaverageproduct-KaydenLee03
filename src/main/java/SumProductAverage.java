@@ -18,7 +18,7 @@ import java.util.Scanner;
 public class SumProductAverage {
     public static void main(String[] args) {
         Scanner scannerRuns = new Scanner(System.in);
-        System.out.print("How many times to run the program?: ");
+        System.out.print("How many times to run the program: ");
         int n = scannerRuns.nextInt();
 
         for (int i = 1; i <= n; i++) {
