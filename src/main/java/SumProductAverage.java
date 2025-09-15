@@ -17,17 +17,17 @@ import java.util.Scanner;
 
 public class SumProductAverage {
     public static void main(String[] args) {
-        Scanner scannerRuns = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("How many times to run the program: ");
-        int n = scannerRuns.nextInt();
+        int n = scanner.nextInt();
 
         for (int i = 1; i <= n; i++) {
-            Scanner scannerObj = new Scanner(System.in);
+            //Scanner scannerObj = new Scanner(System.in);
 
             System.out.print("Input three Numbers: ");
-            double num1 = scannerObj.nextDouble();
-            double num2 = scannerObj.nextDouble();
-            double num3 = scannerObj.nextDouble();
+            double num1 = scanner.nextDouble();
+            double num2 = scanner.nextDouble();
+            double num3 = scanner.nextDouble();
             double avgNums = (num1 + num2 + num3) / 3;
             double sumNums = num1 + num2 + num3;
             double prodNums = num1 * num2 * num3;
